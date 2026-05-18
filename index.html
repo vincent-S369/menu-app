@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的每周菜单</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <h1>小樱的每周菜单</h1>
+    <p>用来记录菜谱、安排菜单和整理采购清单。</p>
+
+    <h2>功能入口</h2>
+
+    <div class="menu-grid">
+      <button class="menu-item" type="button" data-section="recipes">菜谱库</button>
+      <button class="menu-item" type="button" data-section="weekly">每周菜单</button>
+      <button class="menu-item" type="button" data-section="shopping">采购清单</button>
+      <button class="menu-item" type="button" data-section="add">新增菜谱</button>
+      <button class="menu-item" type="button" data-section="backup">数据备份</button>
+    </div>
+
+    <section id="content-area" class="content-area">
+      <h3>欢迎使用</h3>
+      <p>请选择一个功能入口开始使用。</p>
+    </section>
+  </main>
+</body>
+</html>
